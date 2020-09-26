@@ -63,7 +63,7 @@ class arbol():
 
 def initProblem():
     
-    arch = open(r"C:\Users\The Doctor\Documents\Tareas FCFM\6to\Inv Op\PIA\Equipo1_datos.txt", "r")     #Se abre el archivo Datos para lectura
+    arch = open(r"Data.txt", "r")     #Se abre el archivo Datos para lectura
     z = "Max"                                       #Es un problema de maximizar
     n = float(arch.readline())                      #Se lee el numero de objetos a guardar en la mochila
     c = []                                          #Se declara el vector de coeficientes de funcion objetivo(Beneficios)
